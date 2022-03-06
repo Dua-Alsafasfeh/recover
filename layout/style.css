@@ -1,0 +1,21 @@
+header h2{
+    text-align: center;
+}
+#d1{
+    float: right;
+
+}
+section p{
+    width: 1000px;
+}
+article p{
+    width: 1000px;
+}
+aside{
+    position: relative;
+    left: 68%;
+    bottom: 825px;
+}
+aside p{
+    width: 500px;
+}
