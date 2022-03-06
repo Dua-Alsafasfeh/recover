@@ -1,9 +1,25 @@
+*{
+    box-sizing: border-box;
+}
 header h2{
     text-align: center;
 }
+nav{
+    background-color: bisque;
+}
+ul{
+    position: relative;
+}
+li{
+    display: inline;
+}
 #d1{
-    float: right;
+    position: absolute;
+    right: 20px;
 
+}
+a{
+    text-decoration: none;
 }
 section p{
     width: 1000px;
@@ -18,4 +34,9 @@ aside{
 }
 aside p{
     width: 500px;
+}
+footer{
+    text-align: center;
+    font-size: x-large;
+    background-color: antiquewhite;
 }
