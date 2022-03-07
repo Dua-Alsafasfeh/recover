@@ -3,19 +3,19 @@
 }
 header h2{
     text-align: center;
+    background-color: rgb(190, 16, 88);
+    padding: 5%;
 }
 nav{
-    background-color: bisque;
-}
-ul{
-    position: relative;
+    background-color: rgb(243, 149, 196);
+    padding: 1%;
 }
 li{
     display: inline;
 }
 #d1{
-    position: absolute;
-    right: 20px;
+    float: right;
+   clear: right;
 
 }
 a{
@@ -38,5 +38,24 @@ aside p{
 footer{
     text-align: center;
     font-size: x-large;
-    background-color: antiquewhite;
+    background-color: rgb(228, 210, 133);
+}
+footer a{
+    margin:3px;
+    font-size:xx-large;
+}
+.fa-facebook-square{
+    color: blue;
+}
+.fa-instagram-square{
+    color:rgba(247, 7, 87, 0.822);
+}
+.fa-linkedin{
+    color: rgb(60, 60, 228);
+    border: 2px solid red;
+    border-radius: 4px;
+}
+.fa-twitter-square{
+    color:white;
+    background-color:aqua;
 }
